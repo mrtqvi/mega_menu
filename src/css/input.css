@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mega-menu {
+    @apply hidden left-0 absolute w-full
+}
+
+.hoverable {
+    @apply static
+}
+
+.hoverable:hover .mega-menu {
+    @apply block
+}
+
